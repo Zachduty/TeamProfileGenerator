@@ -78,7 +78,6 @@ function init(team) {
         .prompt(pageName)
         .then((pageName) => {
             const pagenameResult = pageName.title;
-            console.log(pagenameResult, 'im on line 82');
             teamAdd(pagenameResult, team);
         });
 }
